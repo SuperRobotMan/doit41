@@ -1,0 +1,732 @@
+2023-06-28 09:41:09  [ main:0 ] - [ INFO ]  Connect 0x77847718 to linux01:2181 with session timeout=90000ms, retries 30, retry interval 1000ms, keepAlive=60000ms
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:26 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:26 ] - [ INFO ]  Client environment:host.name=windows
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:27 ] - [ INFO ]  Client environment:java.version=1.8.0_65
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:27 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:27 ] - [ INFO ]  Client environment:java.home=D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:28 ] - [ INFO ]  Client environment:java.class.path=D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\charsets.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\deploy.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\access-bridge-64.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\cldrdata.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\dnsns.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\jaccess.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\jfxrt.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\localedata.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\nashorn.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\sunec.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\sunjce_provider.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\sunmscapi.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\sunpkcs11.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\zipfs.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\javaws.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\jce.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\jfr.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\jfxswt.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\jsse.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\management-agent.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\plugin.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\resources.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\rt.jar;D:\develop\ideaWorkSpace\doit41\target\classes;C:\Users\34650\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\34650\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\34650\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;C:\Users\34650\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\34650\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\34650\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\34650\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-client\2.0.4\hbase-client-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-protobuf\2.1.0\hbase-shaded-protobuf-2.1.0.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-common\2.0.4\hbase-common-2.0.4.jar;C:\Users\34650\.m2\repository\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-hadoop-compat\2.0.4\hbase-hadoop-compat-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-hadoop2-compat\2.0.4\hbase-hadoop2-compat-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-protocol-shaded\2.0.4\hbase-protocol-shaded-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-protocol\2.0.4\hbase-protocol-2.0.4.jar;C:\Users\34650\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\34650\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\34650\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-miscellaneous\2.1.0\hbase-shaded-miscellaneous-2.1.0.jar;C:\Users\34650\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\34650\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-netty\2.1.0\hbase-shaded-netty-2.1.0.jar;C:\Users\34650\.m2\repository\org\apache\htrace\htrace-core4\4.2.0-incubating\htrace-core4-4.2.0-incubating.jar;C:\Users\34650\.m2\repository\org\jruby\jcodings\jcodings\1.0.18\jcodings-1.0.18.jar;C:\Users\34650\.m2\repository\org\jruby\joni\joni\2.1.11\joni-2.1.11.jar;C:\Users\34650\.m2\repository\io\dropwizard\metrics\metrics-core\3.2.1\metrics-core-3.2.1.jar;C:\Users\34650\.m2\repository\org\apache\commons\commons-crypto\1.0.0\commons-crypto-1.0.0.jar;C:\Users\34650\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.2\jackson-databind-2.9.2.jar;C:\Users\34650\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\34650\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.2\jackson-core-2.9.2.jar;C:\Users\34650\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-client\2.7.7\hadoop-client-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.7.7\hadoop-hdfs-2.7.7.jar;C:\Users\34650\.m2\repository\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar;C:\Users\34650\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;C:\Users\34650\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\34650\.m2\repository\org\fusesource\leveldbjni\leveldbjni-all\1.8\leveldbjni-all-1.8.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.7.7\hadoop-mapreduce-client-app-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.7.7\hadoop-mapreduce-client-common-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.7.7\hadoop-yarn-client-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\2.7.7\hadoop-yarn-server-common-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.7.7\hadoop-mapreduce-client-shuffle-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.7.7\hadoop-yarn-api-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.7.7\hadoop-mapreduce-client-core-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.7.7\hadoop-yarn-common-2.7.7.jar;C:\Users\34650\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\34650\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\34650\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\34650\.m2\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.7.7\hadoop-mapreduce-client-jobclient-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-annotations\2.7.7\hadoop-annotations-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-common\2.7.7\hadoop-common-2.7.7.jar;C:\Users\34650\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\34650\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\34650\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\34650\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\34650\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\34650\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\34650\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\34650\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\34650\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;C:\Users\34650\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\34650\.m2\repository\org\mortbay\jetty\jetty-sslengine\6.1.26\jetty-sslengine-6.1.26.jar;C:\Users\34650\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\34650\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\34650\.m2\repository\com\sun\jersey\jersey-json\1.9\jersey-json-1.9.jar;C:\Users\34650\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;C:\Users\34650\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.8.3\jackson-jaxrs-1.8.3.jar;C:\Users\34650\.m2\repository\org\codehaus\jackson\jackson-xc\1.8.3\jackson-xc-1.8.3.jar;C:\Users\34650\.m2\repository\com\sun\jersey\jersey-server\1.9\jersey-server-1.9.jar;C:\Users\34650\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\34650\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\34650\.m2\repository\net\java\dev\jets3t\jets3t\0.9.0\jets3t-0.9.0.jar;C:\Users\34650\.m2\repository\org\apache\httpcomponents\httpcore\4.1.2\httpcore-4.1.2.jar;C:\Users\34650\.m2\repository\com\jamesmurty\utils\java-xmlbuilder\0.4\java-xmlbuilder-0.4.jar;C:\Users\34650\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\34650\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\34650\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\34650\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\34650\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\34650\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\34650\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\34650\.m2\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;C:\Users\34650\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\34650\.m2\repository\org\xerial\snappy\snappy-java\1.0.4.1\snappy-java-1.0.4.1.jar;C:\Users\34650\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\34650\.m2\repository\com\jcraft\jsch\0.1.54\jsch-0.1.54.jar;C:\Users\34650\.m2\repository\org\apache\curator\curator-client\2.7.1\curator-client-2.7.1.jar;C:\Users\34650\.m2\repository\org\apache\curator\curator-recipes\2.7.1\curator-recipes-2.7.1.jar;C:\Users\34650\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\34650\.m2\repository\org\apache\htrace\htrace-core\3.1.0-incubating\htrace-core-3.1.0-incubating.jar;C:\Users\34650\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\34650\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-server\2.0.4\hbase-server-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-http\2.0.4\hbase-http-2.0.4.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-util\9.3.19.v20170502\jetty-util-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.3.19.v20170502\jetty-util-ajax-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-http\9.3.19.v20170502\jetty-http-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-security\9.3.19.v20170502\jetty-security-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\core\jersey-server\2.25.1\jersey-server-2.25.1.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\core\jersey-common\2.25.1\jersey-common-2.25.1.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\bundles\repackaged\jersey-guava\2.25.1\jersey-guava-2.25.1.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\core\jersey-client\2.25.1\jersey-client-2.25.1.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.25.1\jersey-media-jaxb-2.25.1.jar;C:\Users\34650\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\hk2-api\2.5.0-b32\hk2-api-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\hk2-utils\2.5.0-b32\hk2-utils-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.5.0-b32\aopalliance-repackaged-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\external\javax.inject\2.5.0-b32\javax.inject-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\hk2-locator\2.5.0-b32\hk2-locator-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\34650\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.25.1\jersey-container-servlet-core-2.25.1.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-procedure\2.0.4\hbase-procedure-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-common\2.0.4\hbase-common-2.0.4-tests.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-zookeeper\2.0.4\hbase-zookeeper-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-replication\2.0.4\hbase-replication-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-metrics-api\2.0.4\hbase-metrics-api-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-metrics\2.0.4\hbase-metrics-2.0.4.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-server\9.3.19.v20170502\jetty-server-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-io\9.3.19.v20170502\jetty-io-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-servlet\9.3.19.v20170502\jetty-servlet-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-webapp\9.3.19.v20170502\jetty-webapp-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-xml\9.3.19.v20170502\jetty-xml-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\glassfish\web\javax.servlet.jsp\2.3.2\javax.servlet.jsp-2.3.2.jar;C:\Users\34650\.m2\repository\org\glassfish\javax.el\3.0.1-b12\javax.el-3.0.1-b12.jar;C:\Users\34650\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.1\javax.servlet.jsp-api-2.3.1.jar;C:\Users\34650\.m2\repository\org\codehaus\jettison\jettison\1.3.8\jettison-1.3.8.jar;C:\Users\34650\.m2\repository\org\jamon\jamon-runtime\2.4.1\jamon-runtime-2.4.1.jar;C:\Users\34650\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\34650\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\34650\.m2\repository\com\lmax\disruptor\3.3.6\disruptor-3.3.6.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-distcp\2.7.7\hadoop-distcp-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-mapreduce\2.0.4\hbase-mapreduce-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-auth\3.1.2\hadoop-auth-3.1.2.jar;C:\Users\34650\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\34650\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.1\nimbus-jose-jwt-4.41.1.jar;C:\Users\34650\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\34650\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\34650\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\34650\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\34650\.m2\repository\org\apache\curator\curator-framework\2.13.0\curator-framework-2.13.0.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-simplekdc\1.0.1\kerb-simplekdc-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-client\1.0.1\kerb-client-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-config\1.0.1\kerby-config-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-core\1.0.1\kerb-core-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-pkix\1.0.1\kerby-pkix-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-asn1\1.0.1\kerby-asn1-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-util\1.0.1\kerby-util-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-common\1.0.1\kerb-common-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-crypto\1.0.1\kerb-crypto-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-util\1.0.1\kerb-util-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\token-provider\1.0.1\token-provider-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-admin\1.0.1\kerb-admin-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-server\1.0.1\kerb-server-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-identity\1.0.1\kerb-identity-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-xdr\1.0.1\kerby-xdr-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\develop\idea\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:31 ] - [ INFO ]  Client environment:java.library.path=D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\develop\VMware16\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\bin;D:\develop\scala\scala-2.12.11\bin;D:\develop\mysql\mysql-8.0.33-winx64\bin;D:\develop\hadoop\hadoop-3.1.0\bin;D:\develop\git\Git\cmd;C:\Users\34650\Desktop\software;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;D:\sortware\vscode\Microsoft VS Code\bin;%IntelliJ IDEA%;D:\sortware\game\QQGameTempest\Hall.57975\;.
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:32 ] - [ INFO ]  Client environment:java.io.tmpdir=C:\Users\34650\AppData\Local\Temp\
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:34 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:34 ] - [ INFO ]  Client environment:os.name=Windows 10
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:34 ] - [ INFO ]  Client environment:os.arch=amd64
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:34 ] - [ INFO ]  Client environment:os.version=10.0
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:34 ] - [ INFO ]  Client environment:user.name=34650
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:34 ] - [ INFO ]  Client environment:user.home=C:\Users\34650
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:35 ] - [ INFO ]  Client environment:user.dir=D:\develop\ideaWorkSpace\doit41
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718:37 ] - [ INFO ]  Initiating client connection, connectString=linux01:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.ReadOnlyZKClient$$Lambda$5/869678400@5d18e5a9
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718-SendThread(linux01:2181):60 ] - [ INFO ]  Opening socket connection to server linux01/192.168.100.3:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718-SendThread(linux01:2181):63 ] - [ INFO ]  Socket connection established to linux01/192.168.100.3:2181, initiating session
+2023-06-28 09:41:09  [ ReadOnlyZKClient-linux01:2181@0x77847718-SendThread(linux01:2181):76 ] - [ INFO ]  Session establishment complete on server linux01/192.168.100.3:2181, sessionid = 0x189014b462d0003, negotiated timeout = 40000
+2023-06-28 09:41:11  [ main:1355 ] - [ INFO ]  bulkload locality sensitive enabled
+2023-06-28 09:41:11  [ main:1358 ] - [ INFO ]  Looking up current regions for table doit:userinfo
+2023-06-28 09:41:11  [ main:1460 ] - [ INFO ]  Configuring 1 reduce partitions to match current region count for all tables
+2023-06-28 09:41:11  [ main:2005 ] - [ INFO ]  Writing partition information to /user/34650/hbase-staging/partitions_34d1f83d-4b87-4e38-b7c8-60deb0a9e3ac
+2023-06-28 09:41:11  [ main:2038 ] - [ WARN ]  Failed to load/initialize native-zlib library
+2023-06-28 09:41:11  [ main:2039 ] - [ INFO ]  Got brand-new compressor [.deflate]
+2023-06-28 09:41:11  [ main:2093 ] - [ INFO ]  Incremental output configured for tables: doit:userinfo
+2023-06-28 09:41:12  [ main:2612 ] - [ INFO ]  session.id is deprecated. Instead, use dfs.metrics.session-id
+2023-06-28 09:41:12  [ main:2613 ] - [ INFO ]  Initializing JVM Metrics with processName=JobTracker, sessionId=
+2023-06-28 09:41:12  [ main:2925 ] - [ WARN ]  Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-06-28 09:41:12  [ main:2943 ] - [ WARN ]  No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-06-28 09:41:13  [ main:3789 ] - [ INFO ]  Total input paths to process : 1
+2023-06-28 09:41:13  [ main:3800 ] - [ INFO ]  number of splits:1
+2023-06-28 09:41:13  [ main:3885 ] - [ INFO ]  Submitting tokens for job: job_local1855544294_0001
+2023-06-28 09:41:14  [ main:4553 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473601\hbase-metrics-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-metrics-2.0.4.jar
+2023-06-28 09:41:14  [ main:4664 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-metrics-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916473601\hbase-metrics-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:4664 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473601\hbase-metrics-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-metrics-2.0.4.jar
+2023-06-28 09:41:14  [ main:4665 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-metrics/2.0.4/hbase-metrics-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916473601/hbase-metrics-2.0.4.jar
+2023-06-28 09:41:14  [ main:4721 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473602\hbase-shaded-netty-2.1.0.jar <- D:\develop\ideaWorkSpace\doit41/hbase-shaded-netty-2.1.0.jar
+2023-06-28 09:41:14  [ main:4760 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-shaded-netty-2.1.0.jar \tmp\hadoop-34650\mapred\local\1687916473602\hbase-shaded-netty-2.1.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:4760 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473602\hbase-shaded-netty-2.1.0.jar <- D:\develop\ideaWorkSpace\doit41/hbase-shaded-netty-2.1.0.jar
+2023-06-28 09:41:14  [ main:4760 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/hbase-shaded-netty-2.1.0.jar as file:/tmp/hadoop-34650/mapred/local/1687916473602/hbase-shaded-netty-2.1.0.jar
+2023-06-28 09:41:14  [ main:4760 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473603\hbase-mapreduce-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-mapreduce-2.0.4.jar
+2023-06-28 09:41:14  [ main:4806 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-mapreduce-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916473603\hbase-mapreduce-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:4806 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473603\hbase-mapreduce-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-mapreduce-2.0.4.jar
+2023-06-28 09:41:14  [ main:4806 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-mapreduce/2.0.4/hbase-mapreduce-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916473603/hbase-mapreduce-2.0.4.jar
+2023-06-28 09:41:14  [ main:4806 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473604\jackson-databind-2.9.2.jar <- D:\develop\ideaWorkSpace\doit41/jackson-databind-2.9.2.jar
+2023-06-28 09:41:14  [ main:4852 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\jackson-databind-2.9.2.jar \tmp\hadoop-34650\mapred\local\1687916473604\jackson-databind-2.9.2.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:4852 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473604\jackson-databind-2.9.2.jar <- D:\develop\ideaWorkSpace\doit41/jackson-databind-2.9.2.jar
+2023-06-28 09:41:14  [ main:4852 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.jar as file:/tmp/hadoop-34650/mapred/local/1687916473604/jackson-databind-2.9.2.jar
+2023-06-28 09:41:14  [ main:4852 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473605\hbase-metrics-api-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-metrics-api-2.0.4.jar
+2023-06-28 09:41:14  [ main:4892 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-metrics-api-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916473605\hbase-metrics-api-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:4892 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473605\hbase-metrics-api-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-metrics-api-2.0.4.jar
+2023-06-28 09:41:14  [ main:4892 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-metrics-api/2.0.4/hbase-metrics-api-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916473605/hbase-metrics-api-2.0.4.jar
+2023-06-28 09:41:14  [ main:4892 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473606\hbase-protocol-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-protocol-2.0.4.jar
+2023-06-28 09:41:14  [ main:4930 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-protocol-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916473606\hbase-protocol-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:4930 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473606\hbase-protocol-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-protocol-2.0.4.jar
+2023-06-28 09:41:14  [ main:4931 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-protocol/2.0.4/hbase-protocol-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916473606/hbase-protocol-2.0.4.jar
+2023-06-28 09:41:14  [ main:4931 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473607\jackson-core-2.9.2.jar <- D:\develop\ideaWorkSpace\doit41/jackson-core-2.9.2.jar
+2023-06-28 09:41:14  [ main:4970 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\jackson-core-2.9.2.jar \tmp\hadoop-34650\mapred\local\1687916473607\jackson-core-2.9.2.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:4971 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473607\jackson-core-2.9.2.jar <- D:\develop\ideaWorkSpace\doit41/jackson-core-2.9.2.jar
+2023-06-28 09:41:14  [ main:4971 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar as file:/tmp/hadoop-34650/mapred/local/1687916473607/jackson-core-2.9.2.jar
+2023-06-28 09:41:14  [ main:4971 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473608\hbase-common-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-common-2.0.4.jar
+2023-06-28 09:41:14  [ main:5004 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-common-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916473608\hbase-common-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:5004 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473608\hbase-common-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-common-2.0.4.jar
+2023-06-28 09:41:14  [ main:5004 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-common/2.0.4/hbase-common-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916473608/hbase-common-2.0.4.jar
+2023-06-28 09:41:14  [ main:5004 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473609\hbase-shaded-protobuf-2.1.0.jar <- D:\develop\ideaWorkSpace\doit41/hbase-shaded-protobuf-2.1.0.jar
+2023-06-28 09:41:14  [ main:5049 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-shaded-protobuf-2.1.0.jar \tmp\hadoop-34650\mapred\local\1687916473609\hbase-shaded-protobuf-2.1.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:5049 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473609\hbase-shaded-protobuf-2.1.0.jar <- D:\develop\ideaWorkSpace\doit41/hbase-shaded-protobuf-2.1.0.jar
+2023-06-28 09:41:14  [ main:5049 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/thirdparty/hbase-shaded-protobuf/2.1.0/hbase-shaded-protobuf-2.1.0.jar as file:/tmp/hadoop-34650/mapred/local/1687916473609/hbase-shaded-protobuf-2.1.0.jar
+2023-06-28 09:41:14  [ main:5049 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473610\hbase-hadoop-compat-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-hadoop-compat-2.0.4.jar
+2023-06-28 09:41:14  [ main:5092 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-hadoop-compat-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916473610\hbase-hadoop-compat-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:5092 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473610\hbase-hadoop-compat-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-hadoop-compat-2.0.4.jar
+2023-06-28 09:41:14  [ main:5092 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-hadoop-compat/2.0.4/hbase-hadoop-compat-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916473610/hbase-hadoop-compat-2.0.4.jar
+2023-06-28 09:41:14  [ main:5092 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473611\protobuf-java-2.5.0.jar <- D:\develop\ideaWorkSpace\doit41/protobuf-java-2.5.0.jar
+2023-06-28 09:41:14  [ main:5135 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\protobuf-java-2.5.0.jar \tmp\hadoop-34650\mapred\local\1687916473611\protobuf-java-2.5.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:5135 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473611\protobuf-java-2.5.0.jar <- D:\develop\ideaWorkSpace\doit41/protobuf-java-2.5.0.jar
+2023-06-28 09:41:14  [ main:5135 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar as file:/tmp/hadoop-34650/mapred/local/1687916473611/protobuf-java-2.5.0.jar
+2023-06-28 09:41:14  [ main:5135 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473612\hbase-zookeeper-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-zookeeper-2.0.4.jar
+2023-06-28 09:41:14  [ main:5179 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-zookeeper-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916473612\hbase-zookeeper-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:5180 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473612\hbase-zookeeper-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-zookeeper-2.0.4.jar
+2023-06-28 09:41:14  [ main:5180 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-zookeeper/2.0.4/hbase-zookeeper-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916473612/hbase-zookeeper-2.0.4.jar
+2023-06-28 09:41:14  [ main:5180 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473613\hbase-hadoop2-compat-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-hadoop2-compat-2.0.4.jar
+2023-06-28 09:41:14  [ main:5215 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-hadoop2-compat-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916473613\hbase-hadoop2-compat-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:5216 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473613\hbase-hadoop2-compat-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-hadoop2-compat-2.0.4.jar
+2023-06-28 09:41:14  [ main:5216 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/2.0.4/hbase-hadoop2-compat-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916473613/hbase-hadoop2-compat-2.0.4.jar
+2023-06-28 09:41:14  [ main:5217 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473614\hbase-protocol-shaded-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-protocol-shaded-2.0.4.jar
+2023-06-28 09:41:14  [ main:5254 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-protocol-shaded-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916473614\hbase-protocol-shaded-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:5254 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473614\hbase-protocol-shaded-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-protocol-shaded-2.0.4.jar
+2023-06-28 09:41:14  [ main:5254 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-protocol-shaded/2.0.4/hbase-protocol-shaded-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916473614/hbase-protocol-shaded-2.0.4.jar
+2023-06-28 09:41:14  [ main:5254 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473615\commons-lang3-3.8.1.jar <- D:\develop\ideaWorkSpace\doit41/commons-lang3-3.8.1.jar
+2023-06-28 09:41:14  [ main:5297 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\commons-lang3-3.8.1.jar \tmp\hadoop-34650\mapred\local\1687916473615\commons-lang3-3.8.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:5297 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473615\commons-lang3-3.8.1.jar <- D:\develop\ideaWorkSpace\doit41/commons-lang3-3.8.1.jar
+2023-06-28 09:41:14  [ main:5297 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar as file:/tmp/hadoop-34650/mapred/local/1687916473615/commons-lang3-3.8.1.jar
+2023-06-28 09:41:14  [ main:5297 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473616\hbase-server-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-server-2.0.4.jar
+2023-06-28 09:41:14  [ main:5334 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-server-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916473616\hbase-server-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:14  [ main:5334 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473616\hbase-server-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-server-2.0.4.jar
+2023-06-28 09:41:14  [ main:5334 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-server/2.0.4/hbase-server-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916473616/hbase-server-2.0.4.jar
+2023-06-28 09:41:14  [ main:5335 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473617\jackson-annotations-2.9.0.jar <- D:\develop\ideaWorkSpace\doit41/jackson-annotations-2.9.0.jar
+2023-06-28 09:41:15  [ main:5381 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\jackson-annotations-2.9.0.jar \tmp\hadoop-34650\mapred\local\1687916473617\jackson-annotations-2.9.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:15  [ main:5381 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473617\jackson-annotations-2.9.0.jar <- D:\develop\ideaWorkSpace\doit41/jackson-annotations-2.9.0.jar
+2023-06-28 09:41:15  [ main:5381 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar as file:/tmp/hadoop-34650/mapred/local/1687916473617/jackson-annotations-2.9.0.jar
+2023-06-28 09:41:15  [ main:5381 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473618\hadoop-mapreduce-client-core-2.7.7.jar <- D:\develop\ideaWorkSpace\doit41/hadoop-mapreduce-client-core-2.7.7.jar
+2023-06-28 09:41:15  [ main:5426 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hadoop-mapreduce-client-core-2.7.7.jar \tmp\hadoop-34650\mapred\local\1687916473618\hadoop-mapreduce-client-core-2.7.7.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:15  [ main:5426 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473618\hadoop-mapreduce-client-core-2.7.7.jar <- D:\develop\ideaWorkSpace\doit41/hadoop-mapreduce-client-core-2.7.7.jar
+2023-06-28 09:41:15  [ main:5426 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.7/hadoop-mapreduce-client-core-2.7.7.jar as file:/tmp/hadoop-34650/mapred/local/1687916473618/hadoop-mapreduce-client-core-2.7.7.jar
+2023-06-28 09:41:15  [ main:5427 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473619\hbase-shaded-miscellaneous-2.1.0.jar <- D:\develop\ideaWorkSpace\doit41/hbase-shaded-miscellaneous-2.1.0.jar
+2023-06-28 09:41:15  [ main:5462 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-shaded-miscellaneous-2.1.0.jar \tmp\hadoop-34650\mapred\local\1687916473619\hbase-shaded-miscellaneous-2.1.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:15  [ main:5462 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473619\hbase-shaded-miscellaneous-2.1.0.jar <- D:\develop\ideaWorkSpace\doit41/hbase-shaded-miscellaneous-2.1.0.jar
+2023-06-28 09:41:15  [ main:5462 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/thirdparty/hbase-shaded-miscellaneous/2.1.0/hbase-shaded-miscellaneous-2.1.0.jar as file:/tmp/hadoop-34650/mapred/local/1687916473619/hbase-shaded-miscellaneous-2.1.0.jar
+2023-06-28 09:41:15  [ main:5463 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473620\zookeeper-3.4.6.jar <- D:\develop\ideaWorkSpace\doit41/zookeeper-3.4.6.jar
+2023-06-28 09:41:15  [ main:5505 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\zookeeper-3.4.6.jar \tmp\hadoop-34650\mapred\local\1687916473620\zookeeper-3.4.6.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:15  [ main:5505 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473620\zookeeper-3.4.6.jar <- D:\develop\ideaWorkSpace\doit41/zookeeper-3.4.6.jar
+2023-06-28 09:41:15  [ main:5505 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar as file:/tmp/hadoop-34650/mapred/local/1687916473620/zookeeper-3.4.6.jar
+2023-06-28 09:41:15  [ main:5505 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473621\htrace-core4-4.2.0-incubating.jar <- D:\develop\ideaWorkSpace\doit41/htrace-core4-4.2.0-incubating.jar
+2023-06-28 09:41:15  [ main:5552 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\htrace-core4-4.2.0-incubating.jar \tmp\hadoop-34650\mapred\local\1687916473621\htrace-core4-4.2.0-incubating.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:15  [ main:5553 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473621\htrace-core4-4.2.0-incubating.jar <- D:\develop\ideaWorkSpace\doit41/htrace-core4-4.2.0-incubating.jar
+2023-06-28 09:41:15  [ main:5553 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/htrace/htrace-core4/4.2.0-incubating/htrace-core4-4.2.0-incubating.jar as file:/tmp/hadoop-34650/mapred/local/1687916473621/htrace-core4-4.2.0-incubating.jar
+2023-06-28 09:41:15  [ main:5553 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473622\metrics-core-3.2.1.jar <- D:\develop\ideaWorkSpace\doit41/metrics-core-3.2.1.jar
+2023-06-28 09:41:15  [ main:5590 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\metrics-core-3.2.1.jar \tmp\hadoop-34650\mapred\local\1687916473622\metrics-core-3.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:15  [ main:5590 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473622\metrics-core-3.2.1.jar <- D:\develop\ideaWorkSpace\doit41/metrics-core-3.2.1.jar
+2023-06-28 09:41:15  [ main:5590 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.1/metrics-core-3.2.1.jar as file:/tmp/hadoop-34650/mapred/local/1687916473622/metrics-core-3.2.1.jar
+2023-06-28 09:41:15  [ main:5590 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916473623\hbase-client-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-client-2.0.4.jar
+2023-06-28 09:41:15  [ main:5631 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-client-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916473623\hbase-client-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:15  [ main:5631 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916473623\hbase-client-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-client-2.0.4.jar
+2023-06-28 09:41:15  [ main:5631 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-client/2.0.4/hbase-client-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916473623/hbase-client-2.0.4.jar
+2023-06-28 09:41:15  [ main:5668 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473601/hbase-metrics-2.0.4.jar
+2023-06-28 09:41:15  [ main:5668 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473602/hbase-shaded-netty-2.1.0.jar
+2023-06-28 09:41:15  [ main:5668 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473603/hbase-mapreduce-2.0.4.jar
+2023-06-28 09:41:15  [ main:5668 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473604/jackson-databind-2.9.2.jar
+2023-06-28 09:41:15  [ main:5668 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473605/hbase-metrics-api-2.0.4.jar
+2023-06-28 09:41:15  [ main:5668 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473606/hbase-protocol-2.0.4.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473607/jackson-core-2.9.2.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473608/hbase-common-2.0.4.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473609/hbase-shaded-protobuf-2.1.0.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473610/hbase-hadoop-compat-2.0.4.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473611/protobuf-java-2.5.0.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473612/hbase-zookeeper-2.0.4.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473613/hbase-hadoop2-compat-2.0.4.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473614/hbase-protocol-shaded-2.0.4.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473615/commons-lang3-3.8.1.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473616/hbase-server-2.0.4.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473617/jackson-annotations-2.9.0.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473618/hadoop-mapreduce-client-core-2.7.7.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473619/hbase-shaded-miscellaneous-2.1.0.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473620/zookeeper-3.4.6.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473621/htrace-core4-4.2.0-incubating.jar
+2023-06-28 09:41:15  [ main:5669 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473622/metrics-core-3.2.1.jar
+2023-06-28 09:41:15  [ main:5670 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916473623/hbase-client-2.0.4.jar
+2023-06-28 09:41:15  [ main:5673 ] - [ INFO ]  The url to track the job: http://localhost:8080/
+2023-06-28 09:41:15  [ main:5675 ] - [ INFO ]  Running job: job_local1855544294_0001
+2023-06-28 09:41:15  [ Thread-28:5675 ] - [ INFO ]  OutputCommitter set in config null
+2023-06-28 09:41:16  [ Thread-28:6492 ] - [ INFO ]  File Output Committer Algorithm version is 1
+2023-06-28 09:41:16  [ Thread-28:6492 ] - [ INFO ]  OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-06-28 09:41:16  [ Thread-28:6541 ] - [ WARN ]  job_local1855544294_0001
+org.apache.hadoop.security.AccessControlException: Permission denied: user=34650, access=WRITE, inode="/":root:supergroup:drwxr-xr-x
+	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.check(FSPermissionChecker.java:399)
+	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.checkPermission(FSPermissionChecker.java:255)
+	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.checkPermission(FSPermissionChecker.java:193)
+	at org.apache.hadoop.hdfs.server.namenode.FSDirectory.checkPermission(FSDirectory.java:1850)
+	at org.apache.hadoop.hdfs.server.namenode.FSDirectory.checkPermission(FSDirectory.java:1834)
+	at org.apache.hadoop.hdfs.server.namenode.FSDirectory.checkAncestorAccess(FSDirectory.java:1793)
+	at org.apache.hadoop.hdfs.server.namenode.FSDirMkdirOp.mkdirs(FSDirMkdirOp.java:59)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirs(FSNamesystem.java:3135)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.mkdirs(NameNodeRpcServer.java:1126)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.mkdirs(ClientNamenodeProtocolServerSideTranslatorPB.java:707)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:523)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:991)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:872)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:818)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1729)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2678)
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.apache.hadoop.ipc.RemoteException.instantiateException(RemoteException.java:106)
+	at org.apache.hadoop.ipc.RemoteException.unwrapRemoteException(RemoteException.java:73)
+	at org.apache.hadoop.hdfs.DFSClient.primitiveMkdir(DFSClient.java:3016)
+	at org.apache.hadoop.hdfs.DFSClient.mkdirs(DFSClient.java:2984)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$21.doCall(DistributedFileSystem.java:1047)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$21.doCall(DistributedFileSystem.java:1043)
+	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.mkdirsInternal(DistributedFileSystem.java:1043)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.mkdirs(DistributedFileSystem.java:1036)
+	at org.apache.hadoop.fs.FileSystem.mkdirs(FileSystem.java:1880)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:313)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:511)
+Caused by: org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.security.AccessControlException): Permission denied: user=34650, access=WRITE, inode="/":root:supergroup:drwxr-xr-x
+	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.check(FSPermissionChecker.java:399)
+	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.checkPermission(FSPermissionChecker.java:255)
+	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.checkPermission(FSPermissionChecker.java:193)
+	at org.apache.hadoop.hdfs.server.namenode.FSDirectory.checkPermission(FSDirectory.java:1850)
+	at org.apache.hadoop.hdfs.server.namenode.FSDirectory.checkPermission(FSDirectory.java:1834)
+	at org.apache.hadoop.hdfs.server.namenode.FSDirectory.checkAncestorAccess(FSDirectory.java:1793)
+	at org.apache.hadoop.hdfs.server.namenode.FSDirMkdirOp.mkdirs(FSDirMkdirOp.java:59)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirs(FSNamesystem.java:3135)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.mkdirs(NameNodeRpcServer.java:1126)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.mkdirs(ClientNamenodeProtocolServerSideTranslatorPB.java:707)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:523)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:991)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:872)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:818)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1729)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2678)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1476)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1413)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:229)
+	at com.sun.proxy.$Proxy11.mkdirs(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.mkdirs(ClientNamenodeProtocolTranslatorPB.java:563)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:191)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:102)
+	at com.sun.proxy.$Proxy12.mkdirs(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.primitiveMkdir(DFSClient.java:3014)
+	... 9 more
+2023-06-28 09:41:16  [ main:6689 ] - [ INFO ]  Job job_local1855544294_0001 running in uber mode : false
+2023-06-28 09:41:16  [ main:6693 ] - [ INFO ]   map 0% reduce 0%
+2023-06-28 09:41:16  [ main:6695 ] - [ INFO ]  Job job_local1855544294_0001 failed with state FAILED due to: NA
+2023-06-28 09:41:16  [ main:6711 ] - [ INFO ]  Counters: 0
+2023-06-28 09:41:53  [ main:0 ] - [ INFO ]  Connect 0x77847718 to linux01:2181 with session timeout=90000ms, retries 30, retry interval 1000ms, keepAlive=60000ms
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:8 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:9 ] - [ INFO ]  Client environment:host.name=windows
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:9 ] - [ INFO ]  Client environment:java.version=1.8.0_65
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:9 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:9 ] - [ INFO ]  Client environment:java.home=D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:9 ] - [ INFO ]  Client environment:java.class.path=D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\charsets.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\deploy.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\access-bridge-64.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\cldrdata.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\dnsns.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\jaccess.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\jfxrt.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\localedata.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\nashorn.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\sunec.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\sunjce_provider.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\sunmscapi.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\sunpkcs11.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\zipfs.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\javaws.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\jce.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\jfr.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\jfxswt.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\jsse.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\management-agent.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\plugin.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\resources.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\rt.jar;D:\develop\ideaWorkSpace\doit41\target\classes;C:\Users\34650\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\34650\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\34650\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;C:\Users\34650\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\34650\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\34650\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\34650\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-client\2.0.4\hbase-client-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-protobuf\2.1.0\hbase-shaded-protobuf-2.1.0.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-common\2.0.4\hbase-common-2.0.4.jar;C:\Users\34650\.m2\repository\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-hadoop-compat\2.0.4\hbase-hadoop-compat-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-hadoop2-compat\2.0.4\hbase-hadoop2-compat-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-protocol-shaded\2.0.4\hbase-protocol-shaded-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-protocol\2.0.4\hbase-protocol-2.0.4.jar;C:\Users\34650\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\34650\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\34650\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-miscellaneous\2.1.0\hbase-shaded-miscellaneous-2.1.0.jar;C:\Users\34650\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\34650\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-netty\2.1.0\hbase-shaded-netty-2.1.0.jar;C:\Users\34650\.m2\repository\org\apache\htrace\htrace-core4\4.2.0-incubating\htrace-core4-4.2.0-incubating.jar;C:\Users\34650\.m2\repository\org\jruby\jcodings\jcodings\1.0.18\jcodings-1.0.18.jar;C:\Users\34650\.m2\repository\org\jruby\joni\joni\2.1.11\joni-2.1.11.jar;C:\Users\34650\.m2\repository\io\dropwizard\metrics\metrics-core\3.2.1\metrics-core-3.2.1.jar;C:\Users\34650\.m2\repository\org\apache\commons\commons-crypto\1.0.0\commons-crypto-1.0.0.jar;C:\Users\34650\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.2\jackson-databind-2.9.2.jar;C:\Users\34650\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\34650\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.2\jackson-core-2.9.2.jar;C:\Users\34650\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-client\2.7.7\hadoop-client-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.7.7\hadoop-hdfs-2.7.7.jar;C:\Users\34650\.m2\repository\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar;C:\Users\34650\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;C:\Users\34650\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\34650\.m2\repository\org\fusesource\leveldbjni\leveldbjni-all\1.8\leveldbjni-all-1.8.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.7.7\hadoop-mapreduce-client-app-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.7.7\hadoop-mapreduce-client-common-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.7.7\hadoop-yarn-client-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\2.7.7\hadoop-yarn-server-common-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.7.7\hadoop-mapreduce-client-shuffle-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.7.7\hadoop-yarn-api-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.7.7\hadoop-mapreduce-client-core-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.7.7\hadoop-yarn-common-2.7.7.jar;C:\Users\34650\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\34650\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\34650\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\34650\.m2\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.7.7\hadoop-mapreduce-client-jobclient-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-annotations\2.7.7\hadoop-annotations-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-common\2.7.7\hadoop-common-2.7.7.jar;C:\Users\34650\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\34650\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\34650\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\34650\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\34650\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\34650\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\34650\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\34650\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\34650\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;C:\Users\34650\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\34650\.m2\repository\org\mortbay\jetty\jetty-sslengine\6.1.26\jetty-sslengine-6.1.26.jar;C:\Users\34650\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\34650\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\34650\.m2\repository\com\sun\jersey\jersey-json\1.9\jersey-json-1.9.jar;C:\Users\34650\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;C:\Users\34650\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.8.3\jackson-jaxrs-1.8.3.jar;C:\Users\34650\.m2\repository\org\codehaus\jackson\jackson-xc\1.8.3\jackson-xc-1.8.3.jar;C:\Users\34650\.m2\repository\com\sun\jersey\jersey-server\1.9\jersey-server-1.9.jar;C:\Users\34650\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\34650\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\34650\.m2\repository\net\java\dev\jets3t\jets3t\0.9.0\jets3t-0.9.0.jar;C:\Users\34650\.m2\repository\org\apache\httpcomponents\httpcore\4.1.2\httpcore-4.1.2.jar;C:\Users\34650\.m2\repository\com\jamesmurty\utils\java-xmlbuilder\0.4\java-xmlbuilder-0.4.jar;C:\Users\34650\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\34650\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\34650\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\34650\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\34650\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\34650\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\34650\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\34650\.m2\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;C:\Users\34650\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\34650\.m2\repository\org\xerial\snappy\snappy-java\1.0.4.1\snappy-java-1.0.4.1.jar;C:\Users\34650\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\34650\.m2\repository\com\jcraft\jsch\0.1.54\jsch-0.1.54.jar;C:\Users\34650\.m2\repository\org\apache\curator\curator-client\2.7.1\curator-client-2.7.1.jar;C:\Users\34650\.m2\repository\org\apache\curator\curator-recipes\2.7.1\curator-recipes-2.7.1.jar;C:\Users\34650\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\34650\.m2\repository\org\apache\htrace\htrace-core\3.1.0-incubating\htrace-core-3.1.0-incubating.jar;C:\Users\34650\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\34650\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-server\2.0.4\hbase-server-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-http\2.0.4\hbase-http-2.0.4.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-util\9.3.19.v20170502\jetty-util-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.3.19.v20170502\jetty-util-ajax-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-http\9.3.19.v20170502\jetty-http-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-security\9.3.19.v20170502\jetty-security-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\core\jersey-server\2.25.1\jersey-server-2.25.1.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\core\jersey-common\2.25.1\jersey-common-2.25.1.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\bundles\repackaged\jersey-guava\2.25.1\jersey-guava-2.25.1.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\core\jersey-client\2.25.1\jersey-client-2.25.1.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.25.1\jersey-media-jaxb-2.25.1.jar;C:\Users\34650\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\hk2-api\2.5.0-b32\hk2-api-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\hk2-utils\2.5.0-b32\hk2-utils-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.5.0-b32\aopalliance-repackaged-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\external\javax.inject\2.5.0-b32\javax.inject-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\hk2-locator\2.5.0-b32\hk2-locator-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\34650\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.25.1\jersey-container-servlet-core-2.25.1.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-procedure\2.0.4\hbase-procedure-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-common\2.0.4\hbase-common-2.0.4-tests.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-zookeeper\2.0.4\hbase-zookeeper-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-replication\2.0.4\hbase-replication-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-metrics-api\2.0.4\hbase-metrics-api-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-metrics\2.0.4\hbase-metrics-2.0.4.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-server\9.3.19.v20170502\jetty-server-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-io\9.3.19.v20170502\jetty-io-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-servlet\9.3.19.v20170502\jetty-servlet-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-webapp\9.3.19.v20170502\jetty-webapp-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-xml\9.3.19.v20170502\jetty-xml-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\glassfish\web\javax.servlet.jsp\2.3.2\javax.servlet.jsp-2.3.2.jar;C:\Users\34650\.m2\repository\org\glassfish\javax.el\3.0.1-b12\javax.el-3.0.1-b12.jar;C:\Users\34650\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.1\javax.servlet.jsp-api-2.3.1.jar;C:\Users\34650\.m2\repository\org\codehaus\jettison\jettison\1.3.8\jettison-1.3.8.jar;C:\Users\34650\.m2\repository\org\jamon\jamon-runtime\2.4.1\jamon-runtime-2.4.1.jar;C:\Users\34650\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\34650\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\34650\.m2\repository\com\lmax\disruptor\3.3.6\disruptor-3.3.6.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-distcp\2.7.7\hadoop-distcp-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-mapreduce\2.0.4\hbase-mapreduce-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-auth\3.1.2\hadoop-auth-3.1.2.jar;C:\Users\34650\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\34650\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.1\nimbus-jose-jwt-4.41.1.jar;C:\Users\34650\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\34650\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\34650\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\34650\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\34650\.m2\repository\org\apache\curator\curator-framework\2.13.0\curator-framework-2.13.0.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-simplekdc\1.0.1\kerb-simplekdc-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-client\1.0.1\kerb-client-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-config\1.0.1\kerby-config-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-core\1.0.1\kerb-core-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-pkix\1.0.1\kerby-pkix-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-asn1\1.0.1\kerby-asn1-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-util\1.0.1\kerby-util-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-common\1.0.1\kerb-common-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-crypto\1.0.1\kerb-crypto-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-util\1.0.1\kerb-util-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\token-provider\1.0.1\token-provider-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-admin\1.0.1\kerb-admin-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-server\1.0.1\kerb-server-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-identity\1.0.1\kerb-identity-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-xdr\1.0.1\kerby-xdr-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\develop\idea\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:10 ] - [ INFO ]  Client environment:java.library.path=D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\develop\VMware16\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\bin;D:\develop\scala\scala-2.12.11\bin;D:\develop\mysql\mysql-8.0.33-winx64\bin;D:\develop\hadoop\hadoop-3.1.0\bin;D:\develop\git\Git\cmd;C:\Users\34650\Desktop\software;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;D:\sortware\vscode\Microsoft VS Code\bin;%IntelliJ IDEA%;D:\sortware\game\QQGameTempest\Hall.57975\;.
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:10 ] - [ INFO ]  Client environment:java.io.tmpdir=C:\Users\34650\AppData\Local\Temp\
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:11 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:12 ] - [ INFO ]  Client environment:os.name=Windows 10
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:12 ] - [ INFO ]  Client environment:os.arch=amd64
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:12 ] - [ INFO ]  Client environment:os.version=10.0
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:12 ] - [ INFO ]  Client environment:user.name=34650
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:12 ] - [ INFO ]  Client environment:user.home=C:\Users\34650
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:12 ] - [ INFO ]  Client environment:user.dir=D:\develop\ideaWorkSpace\doit41
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718:14 ] - [ INFO ]  Initiating client connection, connectString=linux01:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.ReadOnlyZKClient$$Lambda$5/1900697791@60e21610
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718-SendThread(linux01:2181):31 ] - [ INFO ]  Opening socket connection to server linux01/192.168.100.3:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718-SendThread(linux01:2181):33 ] - [ INFO ]  Socket connection established to linux01/192.168.100.3:2181, initiating session
+2023-06-28 09:41:53  [ ReadOnlyZKClient-linux01:2181@0x77847718-SendThread(linux01:2181):45 ] - [ INFO ]  Session establishment complete on server linux01/192.168.100.3:2181, sessionid = 0x189014b462d0004, negotiated timeout = 40000
+2023-06-28 09:41:54  [ main:1134 ] - [ INFO ]  bulkload locality sensitive enabled
+2023-06-28 09:41:54  [ main:1137 ] - [ INFO ]  Looking up current regions for table doit:userinfo
+2023-06-28 09:41:54  [ main:1230 ] - [ INFO ]  Configuring 1 reduce partitions to match current region count for all tables
+2023-06-28 09:41:55  [ main:1620 ] - [ INFO ]  Writing partition information to /user/34650/hbase-staging/partitions_1f43ade0-1371-45ae-ae51-b1e79855fb34
+2023-06-28 09:41:55  [ main:1637 ] - [ WARN ]  Failed to load/initialize native-zlib library
+2023-06-28 09:41:55  [ main:1638 ] - [ INFO ]  Got brand-new compressor [.deflate]
+2023-06-28 09:41:55  [ main:1665 ] - [ INFO ]  Incremental output configured for tables: doit:userinfo
+2023-06-28 09:41:55  [ main:1863 ] - [ INFO ]  session.id is deprecated. Instead, use dfs.metrics.session-id
+2023-06-28 09:41:55  [ main:1863 ] - [ INFO ]  Initializing JVM Metrics with processName=JobTracker, sessionId=
+2023-06-28 09:41:55  [ main:1994 ] - [ WARN ]  Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-06-28 09:41:55  [ main:2045 ] - [ WARN ]  No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-06-28 09:41:56  [ main:2861 ] - [ INFO ]  Total input paths to process : 1
+2023-06-28 09:41:56  [ main:2871 ] - [ INFO ]  number of splits:1
+2023-06-28 09:41:56  [ main:2983 ] - [ INFO ]  Submitting tokens for job: job_local1730381571_0001
+2023-06-28 09:41:57  [ main:3587 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516813\hbase-metrics-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-metrics-2.0.4.jar
+2023-06-28 09:41:57  [ main:3724 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-metrics-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916516813\hbase-metrics-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:57  [ main:3725 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516813\hbase-metrics-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-metrics-2.0.4.jar
+2023-06-28 09:41:57  [ main:3726 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-metrics/2.0.4/hbase-metrics-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916516813/hbase-metrics-2.0.4.jar
+2023-06-28 09:41:57  [ main:3793 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516814\hbase-shaded-netty-2.1.0.jar <- D:\develop\ideaWorkSpace\doit41/hbase-shaded-netty-2.1.0.jar
+2023-06-28 09:41:57  [ main:3861 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-shaded-netty-2.1.0.jar \tmp\hadoop-34650\mapred\local\1687916516814\hbase-shaded-netty-2.1.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:57  [ main:3861 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516814\hbase-shaded-netty-2.1.0.jar <- D:\develop\ideaWorkSpace\doit41/hbase-shaded-netty-2.1.0.jar
+2023-06-28 09:41:57  [ main:3861 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/hbase-shaded-netty-2.1.0.jar as file:/tmp/hadoop-34650/mapred/local/1687916516814/hbase-shaded-netty-2.1.0.jar
+2023-06-28 09:41:57  [ main:3861 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516815\hbase-mapreduce-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-mapreduce-2.0.4.jar
+2023-06-28 09:41:57  [ main:3898 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-mapreduce-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916516815\hbase-mapreduce-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:57  [ main:3899 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516815\hbase-mapreduce-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-mapreduce-2.0.4.jar
+2023-06-28 09:41:57  [ main:3899 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-mapreduce/2.0.4/hbase-mapreduce-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916516815/hbase-mapreduce-2.0.4.jar
+2023-06-28 09:41:57  [ main:3899 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516816\jackson-databind-2.9.2.jar <- D:\develop\ideaWorkSpace\doit41/jackson-databind-2.9.2.jar
+2023-06-28 09:41:57  [ main:3941 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\jackson-databind-2.9.2.jar \tmp\hadoop-34650\mapred\local\1687916516816\jackson-databind-2.9.2.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:57  [ main:3942 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516816\jackson-databind-2.9.2.jar <- D:\develop\ideaWorkSpace\doit41/jackson-databind-2.9.2.jar
+2023-06-28 09:41:57  [ main:3942 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.jar as file:/tmp/hadoop-34650/mapred/local/1687916516816/jackson-databind-2.9.2.jar
+2023-06-28 09:41:57  [ main:3942 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516817\hbase-metrics-api-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-metrics-api-2.0.4.jar
+2023-06-28 09:41:57  [ main:3984 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-metrics-api-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916516817\hbase-metrics-api-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:57  [ main:3984 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516817\hbase-metrics-api-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-metrics-api-2.0.4.jar
+2023-06-28 09:41:57  [ main:3985 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-metrics-api/2.0.4/hbase-metrics-api-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916516817/hbase-metrics-api-2.0.4.jar
+2023-06-28 09:41:57  [ main:3985 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516818\hbase-protocol-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-protocol-2.0.4.jar
+2023-06-28 09:41:57  [ main:4024 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-protocol-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916516818\hbase-protocol-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:57  [ main:4024 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516818\hbase-protocol-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-protocol-2.0.4.jar
+2023-06-28 09:41:57  [ main:4024 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-protocol/2.0.4/hbase-protocol-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916516818/hbase-protocol-2.0.4.jar
+2023-06-28 09:41:57  [ main:4024 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516819\jackson-core-2.9.2.jar <- D:\develop\ideaWorkSpace\doit41/jackson-core-2.9.2.jar
+2023-06-28 09:41:57  [ main:4063 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\jackson-core-2.9.2.jar \tmp\hadoop-34650\mapred\local\1687916516819\jackson-core-2.9.2.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:57  [ main:4063 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516819\jackson-core-2.9.2.jar <- D:\develop\ideaWorkSpace\doit41/jackson-core-2.9.2.jar
+2023-06-28 09:41:57  [ main:4063 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar as file:/tmp/hadoop-34650/mapred/local/1687916516819/jackson-core-2.9.2.jar
+2023-06-28 09:41:57  [ main:4063 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516820\hbase-common-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-common-2.0.4.jar
+2023-06-28 09:41:57  [ main:4100 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-common-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916516820\hbase-common-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:57  [ main:4100 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516820\hbase-common-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-common-2.0.4.jar
+2023-06-28 09:41:57  [ main:4100 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-common/2.0.4/hbase-common-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916516820/hbase-common-2.0.4.jar
+2023-06-28 09:41:57  [ main:4100 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516821\hbase-shaded-protobuf-2.1.0.jar <- D:\develop\ideaWorkSpace\doit41/hbase-shaded-protobuf-2.1.0.jar
+2023-06-28 09:41:57  [ main:4139 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-shaded-protobuf-2.1.0.jar \tmp\hadoop-34650\mapred\local\1687916516821\hbase-shaded-protobuf-2.1.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:57  [ main:4139 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516821\hbase-shaded-protobuf-2.1.0.jar <- D:\develop\ideaWorkSpace\doit41/hbase-shaded-protobuf-2.1.0.jar
+2023-06-28 09:41:57  [ main:4139 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/thirdparty/hbase-shaded-protobuf/2.1.0/hbase-shaded-protobuf-2.1.0.jar as file:/tmp/hadoop-34650/mapred/local/1687916516821/hbase-shaded-protobuf-2.1.0.jar
+2023-06-28 09:41:57  [ main:4139 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516822\hbase-hadoop-compat-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-hadoop-compat-2.0.4.jar
+2023-06-28 09:41:57  [ main:4170 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-hadoop-compat-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916516822\hbase-hadoop-compat-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:57  [ main:4170 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516822\hbase-hadoop-compat-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-hadoop-compat-2.0.4.jar
+2023-06-28 09:41:57  [ main:4170 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-hadoop-compat/2.0.4/hbase-hadoop-compat-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916516822/hbase-hadoop-compat-2.0.4.jar
+2023-06-28 09:41:57  [ main:4170 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516823\protobuf-java-2.5.0.jar <- D:\develop\ideaWorkSpace\doit41/protobuf-java-2.5.0.jar
+2023-06-28 09:41:57  [ main:4207 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\protobuf-java-2.5.0.jar \tmp\hadoop-34650\mapred\local\1687916516823\protobuf-java-2.5.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:57  [ main:4207 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516823\protobuf-java-2.5.0.jar <- D:\develop\ideaWorkSpace\doit41/protobuf-java-2.5.0.jar
+2023-06-28 09:41:57  [ main:4207 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar as file:/tmp/hadoop-34650/mapred/local/1687916516823/protobuf-java-2.5.0.jar
+2023-06-28 09:41:57  [ main:4207 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516824\hbase-zookeeper-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-zookeeper-2.0.4.jar
+2023-06-28 09:41:57  [ main:4240 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-zookeeper-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916516824\hbase-zookeeper-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:58  [ main:4241 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516824\hbase-zookeeper-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-zookeeper-2.0.4.jar
+2023-06-28 09:41:58  [ main:4241 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-zookeeper/2.0.4/hbase-zookeeper-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916516824/hbase-zookeeper-2.0.4.jar
+2023-06-28 09:41:58  [ main:4241 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516825\hbase-hadoop2-compat-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-hadoop2-compat-2.0.4.jar
+2023-06-28 09:41:58  [ main:4271 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-hadoop2-compat-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916516825\hbase-hadoop2-compat-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:58  [ main:4272 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516825\hbase-hadoop2-compat-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-hadoop2-compat-2.0.4.jar
+2023-06-28 09:41:58  [ main:4272 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-hadoop2-compat/2.0.4/hbase-hadoop2-compat-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916516825/hbase-hadoop2-compat-2.0.4.jar
+2023-06-28 09:41:58  [ main:4272 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516826\hbase-protocol-shaded-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-protocol-shaded-2.0.4.jar
+2023-06-28 09:41:58  [ main:4299 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-protocol-shaded-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916516826\hbase-protocol-shaded-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:58  [ main:4299 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516826\hbase-protocol-shaded-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-protocol-shaded-2.0.4.jar
+2023-06-28 09:41:58  [ main:4299 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-protocol-shaded/2.0.4/hbase-protocol-shaded-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916516826/hbase-protocol-shaded-2.0.4.jar
+2023-06-28 09:41:58  [ main:4299 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516827\commons-lang3-3.8.1.jar <- D:\develop\ideaWorkSpace\doit41/commons-lang3-3.8.1.jar
+2023-06-28 09:41:58  [ main:4332 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\commons-lang3-3.8.1.jar \tmp\hadoop-34650\mapred\local\1687916516827\commons-lang3-3.8.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:58  [ main:4332 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516827\commons-lang3-3.8.1.jar <- D:\develop\ideaWorkSpace\doit41/commons-lang3-3.8.1.jar
+2023-06-28 09:41:58  [ main:4332 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar as file:/tmp/hadoop-34650/mapred/local/1687916516827/commons-lang3-3.8.1.jar
+2023-06-28 09:41:58  [ main:4332 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516828\hbase-server-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-server-2.0.4.jar
+2023-06-28 09:41:58  [ main:4363 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-server-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916516828\hbase-server-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:58  [ main:4363 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516828\hbase-server-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-server-2.0.4.jar
+2023-06-28 09:41:58  [ main:4363 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-server/2.0.4/hbase-server-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916516828/hbase-server-2.0.4.jar
+2023-06-28 09:41:58  [ main:4363 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516829\jackson-annotations-2.9.0.jar <- D:\develop\ideaWorkSpace\doit41/jackson-annotations-2.9.0.jar
+2023-06-28 09:41:58  [ main:4394 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\jackson-annotations-2.9.0.jar \tmp\hadoop-34650\mapred\local\1687916516829\jackson-annotations-2.9.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:58  [ main:4394 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516829\jackson-annotations-2.9.0.jar <- D:\develop\ideaWorkSpace\doit41/jackson-annotations-2.9.0.jar
+2023-06-28 09:41:58  [ main:4394 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar as file:/tmp/hadoop-34650/mapred/local/1687916516829/jackson-annotations-2.9.0.jar
+2023-06-28 09:41:58  [ main:4395 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516830\hadoop-mapreduce-client-core-2.7.7.jar <- D:\develop\ideaWorkSpace\doit41/hadoop-mapreduce-client-core-2.7.7.jar
+2023-06-28 09:41:58  [ main:4424 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hadoop-mapreduce-client-core-2.7.7.jar \tmp\hadoop-34650\mapred\local\1687916516830\hadoop-mapreduce-client-core-2.7.7.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:58  [ main:4424 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516830\hadoop-mapreduce-client-core-2.7.7.jar <- D:\develop\ideaWorkSpace\doit41/hadoop-mapreduce-client-core-2.7.7.jar
+2023-06-28 09:41:58  [ main:4424 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.7/hadoop-mapreduce-client-core-2.7.7.jar as file:/tmp/hadoop-34650/mapred/local/1687916516830/hadoop-mapreduce-client-core-2.7.7.jar
+2023-06-28 09:41:58  [ main:4424 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516831\hbase-shaded-miscellaneous-2.1.0.jar <- D:\develop\ideaWorkSpace\doit41/hbase-shaded-miscellaneous-2.1.0.jar
+2023-06-28 09:41:58  [ main:4458 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-shaded-miscellaneous-2.1.0.jar \tmp\hadoop-34650\mapred\local\1687916516831\hbase-shaded-miscellaneous-2.1.0.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:58  [ main:4458 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516831\hbase-shaded-miscellaneous-2.1.0.jar <- D:\develop\ideaWorkSpace\doit41/hbase-shaded-miscellaneous-2.1.0.jar
+2023-06-28 09:41:58  [ main:4459 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/thirdparty/hbase-shaded-miscellaneous/2.1.0/hbase-shaded-miscellaneous-2.1.0.jar as file:/tmp/hadoop-34650/mapred/local/1687916516831/hbase-shaded-miscellaneous-2.1.0.jar
+2023-06-28 09:41:58  [ main:4459 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516832\zookeeper-3.4.6.jar <- D:\develop\ideaWorkSpace\doit41/zookeeper-3.4.6.jar
+2023-06-28 09:41:58  [ main:4491 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\zookeeper-3.4.6.jar \tmp\hadoop-34650\mapred\local\1687916516832\zookeeper-3.4.6.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:58  [ main:4491 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516832\zookeeper-3.4.6.jar <- D:\develop\ideaWorkSpace\doit41/zookeeper-3.4.6.jar
+2023-06-28 09:41:58  [ main:4491 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar as file:/tmp/hadoop-34650/mapred/local/1687916516832/zookeeper-3.4.6.jar
+2023-06-28 09:41:58  [ main:4492 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516833\htrace-core4-4.2.0-incubating.jar <- D:\develop\ideaWorkSpace\doit41/htrace-core4-4.2.0-incubating.jar
+2023-06-28 09:41:58  [ main:4531 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\htrace-core4-4.2.0-incubating.jar \tmp\hadoop-34650\mapred\local\1687916516833\htrace-core4-4.2.0-incubating.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:58  [ main:4531 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516833\htrace-core4-4.2.0-incubating.jar <- D:\develop\ideaWorkSpace\doit41/htrace-core4-4.2.0-incubating.jar
+2023-06-28 09:41:58  [ main:4531 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/htrace/htrace-core4/4.2.0-incubating/htrace-core4-4.2.0-incubating.jar as file:/tmp/hadoop-34650/mapred/local/1687916516833/htrace-core4-4.2.0-incubating.jar
+2023-06-28 09:41:58  [ main:4531 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516834\metrics-core-3.2.1.jar <- D:\develop\ideaWorkSpace\doit41/metrics-core-3.2.1.jar
+2023-06-28 09:41:58  [ main:4576 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\metrics-core-3.2.1.jar \tmp\hadoop-34650\mapred\local\1687916516834\metrics-core-3.2.1.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:58  [ main:4576 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516834\metrics-core-3.2.1.jar <- D:\develop\ideaWorkSpace\doit41/metrics-core-3.2.1.jar
+2023-06-28 09:41:58  [ main:4576 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.1/metrics-core-3.2.1.jar as file:/tmp/hadoop-34650/mapred/local/1687916516834/metrics-core-3.2.1.jar
+2023-06-28 09:41:58  [ main:4576 ] - [ INFO ]  Creating symlink: \tmp\hadoop-34650\mapred\local\1687916516835\hbase-client-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-client-2.0.4.jar
+2023-06-28 09:41:58  [ main:4607 ] - [ WARN ]  Command 'D:\develop\hadoop\hadoop-3.1.0\bin\winutils.exe symlink D:\develop\ideaWorkSpace\doit41\hbase-client-2.0.4.jar \tmp\hadoop-34650\mapred\local\1687916516835\hbase-client-2.0.4.jar' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2023-06-28 09:41:58  [ main:4608 ] - [ WARN ]  Failed to create symlink: \tmp\hadoop-34650\mapred\local\1687916516835\hbase-client-2.0.4.jar <- D:\develop\ideaWorkSpace\doit41/hbase-client-2.0.4.jar
+2023-06-28 09:41:58  [ main:4608 ] - [ INFO ]  Localized file:/C:/Users/34650/.m2/repository/org/apache/hbase/hbase-client/2.0.4/hbase-client-2.0.4.jar as file:/tmp/hadoop-34650/mapred/local/1687916516835/hbase-client-2.0.4.jar
+2023-06-28 09:41:58  [ main:4649 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516813/hbase-metrics-2.0.4.jar
+2023-06-28 09:41:58  [ main:4649 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516814/hbase-shaded-netty-2.1.0.jar
+2023-06-28 09:41:58  [ main:4649 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516815/hbase-mapreduce-2.0.4.jar
+2023-06-28 09:41:58  [ main:4649 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516816/jackson-databind-2.9.2.jar
+2023-06-28 09:41:58  [ main:4649 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516817/hbase-metrics-api-2.0.4.jar
+2023-06-28 09:41:58  [ main:4649 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516818/hbase-protocol-2.0.4.jar
+2023-06-28 09:41:58  [ main:4650 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516819/jackson-core-2.9.2.jar
+2023-06-28 09:41:58  [ main:4650 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516820/hbase-common-2.0.4.jar
+2023-06-28 09:41:58  [ main:4650 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516821/hbase-shaded-protobuf-2.1.0.jar
+2023-06-28 09:41:58  [ main:4650 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516822/hbase-hadoop-compat-2.0.4.jar
+2023-06-28 09:41:58  [ main:4650 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516823/protobuf-java-2.5.0.jar
+2023-06-28 09:41:58  [ main:4650 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516824/hbase-zookeeper-2.0.4.jar
+2023-06-28 09:41:58  [ main:4651 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516825/hbase-hadoop2-compat-2.0.4.jar
+2023-06-28 09:41:58  [ main:4651 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516826/hbase-protocol-shaded-2.0.4.jar
+2023-06-28 09:41:58  [ main:4651 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516827/commons-lang3-3.8.1.jar
+2023-06-28 09:41:58  [ main:4651 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516828/hbase-server-2.0.4.jar
+2023-06-28 09:41:58  [ main:4651 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516829/jackson-annotations-2.9.0.jar
+2023-06-28 09:41:58  [ main:4651 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516830/hadoop-mapreduce-client-core-2.7.7.jar
+2023-06-28 09:41:58  [ main:4651 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516831/hbase-shaded-miscellaneous-2.1.0.jar
+2023-06-28 09:41:58  [ main:4651 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516832/zookeeper-3.4.6.jar
+2023-06-28 09:41:58  [ main:4651 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516833/htrace-core4-4.2.0-incubating.jar
+2023-06-28 09:41:58  [ main:4651 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516834/metrics-core-3.2.1.jar
+2023-06-28 09:41:58  [ main:4651 ] - [ INFO ]  file:/D:/tmp/hadoop-34650/mapred/local/1687916516835/hbase-client-2.0.4.jar
+2023-06-28 09:41:58  [ main:4655 ] - [ INFO ]  The url to track the job: http://localhost:8080/
+2023-06-28 09:41:58  [ main:4655 ] - [ INFO ]  Running job: job_local1730381571_0001
+2023-06-28 09:41:58  [ Thread-28:4656 ] - [ INFO ]  OutputCommitter set in config null
+2023-06-28 09:41:59  [ Thread-28:5479 ] - [ INFO ]  File Output Committer Algorithm version is 1
+2023-06-28 09:41:59  [ Thread-28:5480 ] - [ INFO ]  OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-06-28 09:41:59  [ Thread-28:5539 ] - [ INFO ]  Waiting for map tasks
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5540 ] - [ INFO ]  Starting task: attempt_local1730381571_0001_m_000000_0
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5560 ] - [ INFO ]  File Output Committer Algorithm version is 1
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5565 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux.
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5613 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@32b73806
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5624 ] - [ INFO ]  Processing split: file:/D:/develop/ideaWorkSpace/doit41/data/user_info.txt:0+82
+2023-06-28 09:41:59  [ main:5670 ] - [ INFO ]  Job job_local1730381571_0001 running in uber mode : false
+2023-06-28 09:41:59  [ main:5672 ] - [ INFO ]   map 0% reduce 0%
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5863 ] - [ INFO ]  (EQUATOR) 0 kvi 26214396(104857584)
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5863 ] - [ INFO ]  mapreduce.task.io.sort.mb: 100
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5863 ] - [ INFO ]  soft limit at 83886080
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5863 ] - [ INFO ]  bufstart = 0; bufvoid = 104857600
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5864 ] - [ INFO ]  kvstart = 26214396; length = 6553600
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5867 ] - [ INFO ]  Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5873 ] - [ INFO ]  
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5873 ] - [ INFO ]  Starting flush of map output
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5873 ] - [ INFO ]  Spilling map output
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5873 ] - [ INFO ]  bufstart = 0; bufend = 599; bufvoid = 104857600
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5873 ] - [ INFO ]  kvstart = 26214396(104857584); kvend = 26214340(104857360); length = 57/6553600
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5882 ] - [ INFO ]  Finished spill 0
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5886 ] - [ INFO ]  Task:attempt_local1730381571_0001_m_000000_0 is done. And is in the process of committing
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5897 ] - [ INFO ]  map
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5897 ] - [ INFO ]  Task 'attempt_local1730381571_0001_m_000000_0' done.
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5900 ] - [ INFO ]  Final Counters for attempt_local1730381571_0001_m_000000_0: Counters: 22
+	File System Counters
+		FILE: Number of bytes read=33308104
+		FILE: Number of bytes written=33954448
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=0
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=2
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=1
+	Map-Reduce Framework
+		Map input records=5
+		Map output records=15
+		Map output bytes=599
+		Map output materialized bytes=635
+		Input split bytes=121
+		Combine input records=0
+		Spilled Records=15
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=533200896
+	File Input Format Counters 
+		Bytes Read=82
+2023-06-28 09:41:59  [ LocalJobRunner Map Task Executor #0:5900 ] - [ INFO ]  Finishing task: attempt_local1730381571_0001_m_000000_0
+2023-06-28 09:41:59  [ Thread-28:5900 ] - [ INFO ]  map task executor complete.
+2023-06-28 09:41:59  [ Thread-28:5903 ] - [ INFO ]  Waiting for reduce tasks
+2023-06-28 09:41:59  [ pool-7-thread-1:5903 ] - [ INFO ]  Starting task: attempt_local1730381571_0001_r_000000_0
+2023-06-28 09:41:59  [ pool-7-thread-1:5910 ] - [ INFO ]  File Output Committer Algorithm version is 1
+2023-06-28 09:41:59  [ pool-7-thread-1:5910 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux.
+2023-06-28 09:41:59  [ pool-7-thread-1:5959 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@ace4090
+2023-06-28 09:41:59  [ pool-7-thread-1:5960 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@28c91c75
+2023-06-28 09:41:59  [ pool-7-thread-1:5977 ] - [ INFO ]  MergerManager: memoryLimit=5303173120, maxSingleShuffleLimit=1325793280, mergeThreshold=3500094464, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2023-06-28 09:41:59  [ EventFetcher for fetching Map Completion Events:5979 ] - [ INFO ]  attempt_local1730381571_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2023-06-28 09:41:59  [ localfetcher#1:6008 ] - [ INFO ]  localfetcher#1 about to shuffle output of map attempt_local1730381571_0001_m_000000_0 decomp: 631 len: 635 to MEMORY
+2023-06-28 09:41:59  [ localfetcher#1:6025 ] - [ INFO ]  Read 631 bytes from map-output for attempt_local1730381571_0001_m_000000_0
+2023-06-28 09:41:59  [ localfetcher#1:6025 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 631, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->631
+2023-06-28 09:41:59  [ EventFetcher for fetching Map Completion Events:6026 ] - [ INFO ]  EventFetcher is interrupted.. Returning
+2023-06-28 09:41:59  [ pool-7-thread-1:6027 ] - [ INFO ]  1 / 1 copied.
+2023-06-28 09:41:59  [ pool-7-thread-1:6027 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2023-06-28 09:41:59  [ pool-7-thread-1:6035 ] - [ INFO ]  Merging 1 sorted segments
+2023-06-28 09:41:59  [ pool-7-thread-1:6035 ] - [ INFO ]  Down to the last merge-pass, with 1 segments left of total size: 624 bytes
+2023-06-28 09:41:59  [ pool-7-thread-1:6038 ] - [ INFO ]  Merged 1 segments, 631 bytes to disk to satisfy reduce memory limit
+2023-06-28 09:41:59  [ pool-7-thread-1:6039 ] - [ INFO ]  Merging 1 files, 635 bytes from disk
+2023-06-28 09:41:59  [ pool-7-thread-1:6040 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce
+2023-06-28 09:41:59  [ pool-7-thread-1:6040 ] - [ INFO ]  Merging 1 sorted segments
+2023-06-28 09:41:59  [ pool-7-thread-1:6042 ] - [ INFO ]  Down to the last merge-pass, with 1 segments left of total size: 624 bytes
+2023-06-28 09:41:59  [ pool-7-thread-1:6043 ] - [ INFO ]  1 / 1 copied.
+2023-06-28 09:41:59  [ pool-7-thread-1:6057 ] - [ INFO ]  mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2023-06-28 09:41:59  [ pool-7-thread-1:6075 ] - [ INFO ]  Connect 0x37084944 to linux01:2181 with session timeout=90000ms, retries 30, retry interval 1000ms, keepAlive=60000ms
+2023-06-28 09:41:59  [ ReadOnlyZKClient-linux01:2181@0x37084944:6076 ] - [ INFO ]  Initiating client connection, connectString=linux01:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.ReadOnlyZKClient$$Lambda$5/1900697791@60e21610
+2023-06-28 09:41:59  [ ReadOnlyZKClient-linux01:2181@0x37084944-SendThread(linux01:2181):6078 ] - [ INFO ]  Opening socket connection to server linux01/192.168.100.3:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-06-28 09:41:59  [ ReadOnlyZKClient-linux01:2181@0x37084944-SendThread(linux01:2181):6079 ] - [ INFO ]  Socket connection established to linux01/192.168.100.3:2181, initiating session
+2023-06-28 09:41:59  [ ReadOnlyZKClient-linux01:2181@0x37084944-SendThread(linux01:2181):6091 ] - [ INFO ]  Session establishment complete on server linux01/192.168.100.3:2181, sessionid = 0x189014b462d0005, negotiated timeout = 40000
+2023-06-28 09:41:59  [ pool-7-thread-1:6120 ] - [ INFO ]  Close zookeeper connection 0x37084944 to linux01:2181
+2023-06-28 09:41:59  [ ReadOnlyZKClient-linux01:2181@0x37084944:6128 ] - [ INFO ]  Session: 0x189014b462d0005 closed
+2023-06-28 09:41:59  [ ReadOnlyZKClient-linux01:2181@0x37084944-EventThread:6128 ] - [ INFO ]  EventThread shut down
+2023-06-28 09:41:59  [ pool-7-thread-1:6216 ] - [ WARN ]  Cannot locate configuration: tried hadoop-metrics2-hbase.properties,hadoop-metrics2.properties
+2023-06-28 09:42:00  [ pool-7-thread-1:6306 ] - [ INFO ]  Scheduled snapshot period at 10 second(s).
+2023-06-28 09:42:00  [ pool-7-thread-1:6307 ] - [ INFO ]  HBase metrics system started
+2023-06-28 09:42:00  [ pool-7-thread-1:6329 ] - [ INFO ]  Loaded MetricRegistries class org.apache.hadoop.hbase.metrics.impl.MetricRegistriesImpl
+2023-06-28 09:42:00  [ pool-7-thread-1:6444 ] - [ INFO ]  Connect 0x519e1635 to linux01:2181 with session timeout=90000ms, retries 30, retry interval 1000ms, keepAlive=60000ms
+2023-06-28 09:42:00  [ ReadOnlyZKClient-linux01:2181@0x519e1635:6445 ] - [ INFO ]  Initiating client connection, connectString=linux01:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.ReadOnlyZKClient$$Lambda$5/1900697791@60e21610
+2023-06-28 09:42:00  [ ReadOnlyZKClient-linux01:2181@0x519e1635-SendThread(linux01:2181):6451 ] - [ INFO ]  Opening socket connection to server linux01/192.168.100.3:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-06-28 09:42:00  [ ReadOnlyZKClient-linux01:2181@0x519e1635-SendThread(linux01:2181):6454 ] - [ INFO ]  Socket connection established to linux01/192.168.100.3:2181, initiating session
+2023-06-28 09:42:00  [ ReadOnlyZKClient-linux01:2181@0x519e1635-SendThread(linux01:2181):6467 ] - [ INFO ]  Session establishment complete on server linux01/192.168.100.3:2181, sessionid = 0x189014b462d0006, negotiated timeout = 40000
+2023-06-28 09:42:00  [ pool-7-thread-1:6488 ] - [ INFO ]  Close zookeeper connection 0x519e1635 to linux01:2181
+2023-06-28 09:42:00  [ ReadOnlyZKClient-linux01:2181@0x519e1635:6497 ] - [ INFO ]  Session: 0x189014b462d0006 closed
+2023-06-28 09:42:00  [ ReadOnlyZKClient-linux01:2181@0x519e1635-EventThread:6497 ] - [ INFO ]  EventThread shut down
+2023-06-28 09:42:00  [ Thread-154:6601 ] - [ WARN ]  These favored nodes were specified but not chosen: [linux02:16020] Specified favored nodes: [linux02:16020]
+2023-06-28 09:42:00  [ main:6677 ] - [ INFO ]   map 100% reduce 0%
+2023-06-28 09:42:00  [ Thread-157:6733 ] - [ WARN ]  These favored nodes were specified but not chosen: [linux02:16020] Specified favored nodes: [linux02:16020]
+2023-06-28 09:42:00  [ pool-7-thread-1:6798 ] - [ INFO ]  Task:attempt_local1730381571_0001_r_000000_0 is done. And is in the process of committing
+2023-06-28 09:42:00  [ pool-7-thread-1:6802 ] - [ INFO ]  1 / 1 copied.
+2023-06-28 09:42:00  [ pool-7-thread-1:6802 ] - [ INFO ]  Task attempt_local1730381571_0001_r_000000_0 is allowed to commit now
+2023-06-28 09:42:00  [ pool-7-thread-1:6816 ] - [ INFO ]  Saved output of task 'attempt_local1730381571_0001_r_000000_0' to hdfs://linux01:8020/output/_temporary/0/task_local1730381571_0001_r_000000
+2023-06-28 09:42:00  [ pool-7-thread-1:6817 ] - [ INFO ]  Read class java.util.TreeSet > reduce
+2023-06-28 09:42:00  [ pool-7-thread-1:6817 ] - [ INFO ]  Task 'attempt_local1730381571_0001_r_000000_0' done.
+2023-06-28 09:42:00  [ pool-7-thread-1:6817 ] - [ INFO ]  Final Counters for attempt_local1730381571_0001_r_000000_0: Counters: 29
+	File System Counters
+		FILE: Number of bytes read=33309406
+		FILE: Number of bytes written=33955083
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=0
+		HDFS: Number of bytes written=10438
+		HDFS: Number of read operations=9
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=6
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5
+		Reduce shuffle bytes=635
+		Reduce input records=15
+		Reduce output records=15
+		Spilled Records=15
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=4
+		Total committed heap usage (bytes)=686817280
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=10438
+2023-06-28 09:42:00  [ pool-7-thread-1:6818 ] - [ INFO ]  Finishing task: attempt_local1730381571_0001_r_000000_0
+2023-06-28 09:42:00  [ Thread-28:6818 ] - [ INFO ]  reduce task executor complete.
+2023-06-28 09:42:01  [ main:7683 ] - [ INFO ]   map 100% reduce 100%
+2023-06-28 09:42:01  [ main:7683 ] - [ INFO ]  Job job_local1730381571_0001 completed successfully
+2023-06-28 09:42:01  [ main:7698 ] - [ INFO ]  Counters: 35
+	File System Counters
+		FILE: Number of bytes read=66617510
+		FILE: Number of bytes written=67909531
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=0
+		HDFS: Number of bytes written=10438
+		HDFS: Number of read operations=11
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=7
+	Map-Reduce Framework
+		Map input records=5
+		Map output records=15
+		Map output bytes=599
+		Map output materialized bytes=635
+		Input split bytes=121
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5
+		Reduce shuffle bytes=635
+		Reduce input records=15
+		Reduce output records=15
+		Spilled Records=30
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=4
+		Total committed heap usage (bytes)=1220018176
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=82
+	File Output Format Counters 
+		Bytes Written=10438
+2023-06-28 09:46:56  [ main:0 ] - [ INFO ]  Connect 0x67d48005 to linux01:2181 with session timeout=90000ms, retries 30, retry interval 1000ms, keepAlive=60000ms
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:7 ] - [ INFO ]  Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:7 ] - [ INFO ]  Client environment:host.name=windows
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:7 ] - [ INFO ]  Client environment:java.version=1.8.0_65
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:7 ] - [ INFO ]  Client environment:java.vendor=Oracle Corporation
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:7 ] - [ INFO ]  Client environment:java.home=D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:7 ] - [ INFO ]  Client environment:java.class.path=D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\charsets.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\deploy.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\access-bridge-64.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\cldrdata.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\dnsns.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\jaccess.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\jfxrt.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\localedata.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\nashorn.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\sunec.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\sunjce_provider.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\sunmscapi.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\sunpkcs11.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\ext\zipfs.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\javaws.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\jce.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\jfr.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\jfxswt.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\jsse.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\management-agent.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\plugin.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\resources.jar;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\jre\lib\rt.jar;D:\develop\ideaWorkSpace\doit41\target\classes;C:\Users\34650\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\34650\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\34650\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;C:\Users\34650\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\34650\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\34650\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\34650\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-client\2.0.4\hbase-client-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-protobuf\2.1.0\hbase-shaded-protobuf-2.1.0.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-common\2.0.4\hbase-common-2.0.4.jar;C:\Users\34650\.m2\repository\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-hadoop-compat\2.0.4\hbase-hadoop-compat-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-hadoop2-compat\2.0.4\hbase-hadoop2-compat-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-protocol-shaded\2.0.4\hbase-protocol-shaded-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-protocol\2.0.4\hbase-protocol-2.0.4.jar;C:\Users\34650\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\34650\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\34650\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-miscellaneous\2.1.0\hbase-shaded-miscellaneous-2.1.0.jar;C:\Users\34650\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\34650\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-netty\2.1.0\hbase-shaded-netty-2.1.0.jar;C:\Users\34650\.m2\repository\org\apache\htrace\htrace-core4\4.2.0-incubating\htrace-core4-4.2.0-incubating.jar;C:\Users\34650\.m2\repository\org\jruby\jcodings\jcodings\1.0.18\jcodings-1.0.18.jar;C:\Users\34650\.m2\repository\org\jruby\joni\joni\2.1.11\joni-2.1.11.jar;C:\Users\34650\.m2\repository\io\dropwizard\metrics\metrics-core\3.2.1\metrics-core-3.2.1.jar;C:\Users\34650\.m2\repository\org\apache\commons\commons-crypto\1.0.0\commons-crypto-1.0.0.jar;C:\Users\34650\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.2\jackson-databind-2.9.2.jar;C:\Users\34650\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\34650\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.2\jackson-core-2.9.2.jar;C:\Users\34650\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-client\2.7.7\hadoop-client-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.7.7\hadoop-hdfs-2.7.7.jar;C:\Users\34650\.m2\repository\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar;C:\Users\34650\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;C:\Users\34650\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\34650\.m2\repository\org\fusesource\leveldbjni\leveldbjni-all\1.8\leveldbjni-all-1.8.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.7.7\hadoop-mapreduce-client-app-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.7.7\hadoop-mapreduce-client-common-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.7.7\hadoop-yarn-client-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\2.7.7\hadoop-yarn-server-common-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.7.7\hadoop-mapreduce-client-shuffle-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.7.7\hadoop-yarn-api-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.7.7\hadoop-mapreduce-client-core-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.7.7\hadoop-yarn-common-2.7.7.jar;C:\Users\34650\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\34650\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\34650\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\34650\.m2\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.7.7\hadoop-mapreduce-client-jobclient-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-annotations\2.7.7\hadoop-annotations-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-common\2.7.7\hadoop-common-2.7.7.jar;C:\Users\34650\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\34650\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\34650\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\34650\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\34650\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\34650\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\34650\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\34650\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\34650\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;C:\Users\34650\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\34650\.m2\repository\org\mortbay\jetty\jetty-sslengine\6.1.26\jetty-sslengine-6.1.26.jar;C:\Users\34650\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\34650\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\34650\.m2\repository\com\sun\jersey\jersey-json\1.9\jersey-json-1.9.jar;C:\Users\34650\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;C:\Users\34650\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.8.3\jackson-jaxrs-1.8.3.jar;C:\Users\34650\.m2\repository\org\codehaus\jackson\jackson-xc\1.8.3\jackson-xc-1.8.3.jar;C:\Users\34650\.m2\repository\com\sun\jersey\jersey-server\1.9\jersey-server-1.9.jar;C:\Users\34650\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\34650\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\34650\.m2\repository\net\java\dev\jets3t\jets3t\0.9.0\jets3t-0.9.0.jar;C:\Users\34650\.m2\repository\org\apache\httpcomponents\httpcore\4.1.2\httpcore-4.1.2.jar;C:\Users\34650\.m2\repository\com\jamesmurty\utils\java-xmlbuilder\0.4\java-xmlbuilder-0.4.jar;C:\Users\34650\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\34650\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\34650\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\34650\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\34650\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\34650\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\34650\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\34650\.m2\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;C:\Users\34650\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\34650\.m2\repository\org\xerial\snappy\snappy-java\1.0.4.1\snappy-java-1.0.4.1.jar;C:\Users\34650\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\34650\.m2\repository\com\jcraft\jsch\0.1.54\jsch-0.1.54.jar;C:\Users\34650\.m2\repository\org\apache\curator\curator-client\2.7.1\curator-client-2.7.1.jar;C:\Users\34650\.m2\repository\org\apache\curator\curator-recipes\2.7.1\curator-recipes-2.7.1.jar;C:\Users\34650\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\34650\.m2\repository\org\apache\htrace\htrace-core\3.1.0-incubating\htrace-core-3.1.0-incubating.jar;C:\Users\34650\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\34650\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-server\2.0.4\hbase-server-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-http\2.0.4\hbase-http-2.0.4.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-util\9.3.19.v20170502\jetty-util-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.3.19.v20170502\jetty-util-ajax-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-http\9.3.19.v20170502\jetty-http-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-security\9.3.19.v20170502\jetty-security-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\core\jersey-server\2.25.1\jersey-server-2.25.1.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\core\jersey-common\2.25.1\jersey-common-2.25.1.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\bundles\repackaged\jersey-guava\2.25.1\jersey-guava-2.25.1.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\core\jersey-client\2.25.1\jersey-client-2.25.1.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.25.1\jersey-media-jaxb-2.25.1.jar;C:\Users\34650\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\hk2-api\2.5.0-b32\hk2-api-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\hk2-utils\2.5.0-b32\hk2-utils-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.5.0-b32\aopalliance-repackaged-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\external\javax.inject\2.5.0-b32\javax.inject-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\glassfish\hk2\hk2-locator\2.5.0-b32\hk2-locator-2.5.0-b32.jar;C:\Users\34650\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\34650\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\34650\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.25.1\jersey-container-servlet-core-2.25.1.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-procedure\2.0.4\hbase-procedure-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-common\2.0.4\hbase-common-2.0.4-tests.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-zookeeper\2.0.4\hbase-zookeeper-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-replication\2.0.4\hbase-replication-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-metrics-api\2.0.4\hbase-metrics-api-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-metrics\2.0.4\hbase-metrics-2.0.4.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-server\9.3.19.v20170502\jetty-server-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-io\9.3.19.v20170502\jetty-io-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-servlet\9.3.19.v20170502\jetty-servlet-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-webapp\9.3.19.v20170502\jetty-webapp-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\eclipse\jetty\jetty-xml\9.3.19.v20170502\jetty-xml-9.3.19.v20170502.jar;C:\Users\34650\.m2\repository\org\glassfish\web\javax.servlet.jsp\2.3.2\javax.servlet.jsp-2.3.2.jar;C:\Users\34650\.m2\repository\org\glassfish\javax.el\3.0.1-b12\javax.el-3.0.1-b12.jar;C:\Users\34650\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.1\javax.servlet.jsp-api-2.3.1.jar;C:\Users\34650\.m2\repository\org\codehaus\jettison\jettison\1.3.8\jettison-1.3.8.jar;C:\Users\34650\.m2\repository\org\jamon\jamon-runtime\2.4.1\jamon-runtime-2.4.1.jar;C:\Users\34650\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\34650\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\34650\.m2\repository\com\lmax\disruptor\3.3.6\disruptor-3.3.6.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-distcp\2.7.7\hadoop-distcp-2.7.7.jar;C:\Users\34650\.m2\repository\org\apache\hbase\hbase-mapreduce\2.0.4\hbase-mapreduce-2.0.4.jar;C:\Users\34650\.m2\repository\org\apache\hadoop\hadoop-auth\3.1.2\hadoop-auth-3.1.2.jar;C:\Users\34650\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\34650\.m2\repository\com\nimbusds\nimbus-jose-jwt\4.41.1\nimbus-jose-jwt-4.41.1.jar;C:\Users\34650\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\34650\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\34650\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\34650\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\34650\.m2\repository\org\apache\curator\curator-framework\2.13.0\curator-framework-2.13.0.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-simplekdc\1.0.1\kerb-simplekdc-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-client\1.0.1\kerb-client-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-config\1.0.1\kerby-config-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-core\1.0.1\kerb-core-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-pkix\1.0.1\kerby-pkix-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-asn1\1.0.1\kerby-asn1-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-util\1.0.1\kerby-util-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-common\1.0.1\kerb-common-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-crypto\1.0.1\kerb-crypto-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-util\1.0.1\kerb-util-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\token-provider\1.0.1\token-provider-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-admin\1.0.1\kerb-admin-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-server\1.0.1\kerb-server-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerb-identity\1.0.1\kerb-identity-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\kerby\kerby-xdr\1.0.1\kerby-xdr-1.0.1.jar;C:\Users\34650\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;D:\develop\idea\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:8 ] - [ INFO ]  Client environment:java.library.path=D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\develop\VMware16\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\develop\jdk\jdk1.8.0_65\jdk1.8.0_65\bin;D:\develop\scala\scala-2.12.11\bin;D:\develop\mysql\mysql-8.0.33-winx64\bin;D:\develop\hadoop\hadoop-3.1.0\bin;D:\develop\git\Git\cmd;C:\Users\34650\Desktop\software;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;D:\sortware\vscode\Microsoft VS Code\bin;%IntelliJ IDEA%;D:\sortware\game\QQGameTempest\Hall.57975\;.
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:8 ] - [ INFO ]  Client environment:java.io.tmpdir=C:\Users\34650\AppData\Local\Temp\
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:8 ] - [ INFO ]  Client environment:java.compiler=<NA>
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:10 ] - [ INFO ]  Client environment:os.name=Windows 10
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:10 ] - [ INFO ]  Client environment:os.arch=amd64
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:10 ] - [ INFO ]  Client environment:os.version=10.0
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:10 ] - [ INFO ]  Client environment:user.name=34650
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:11 ] - [ INFO ]  Client environment:user.home=C:\Users\34650
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:11 ] - [ INFO ]  Client environment:user.dir=D:\develop\ideaWorkSpace\doit41
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005:12 ] - [ INFO ]  Initiating client connection, connectString=linux01:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.ReadOnlyZKClient$$Lambda$5/1347711333@2dfc3d26
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005-SendThread(linux01:2181):30 ] - [ INFO ]  Opening socket connection to server linux01/192.168.100.3:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005-SendThread(linux01:2181):32 ] - [ INFO ]  Socket connection established to linux01/192.168.100.3:2181, initiating session
+2023-06-28 09:46:56  [ ReadOnlyZKClient-linux01:2181@0x67d48005-SendThread(linux01:2181):44 ] - [ INFO ]  Session establishment complete on server linux01/192.168.100.3:2181, sessionid = 0x189014b462d0007, negotiated timeout = 40000
+2023-06-28 09:46:58  [ main:1640 ] - [ WARN ]  Skipping non-directory hdfs://linux01:8020/output/_SUCCESS
+2023-06-28 09:46:58  [ main:1776 ] - [ WARN ]  Cannot locate configuration: tried hadoop-metrics2-hbase.properties,hadoop-metrics2.properties
+2023-06-28 09:46:58  [ main:1817 ] - [ INFO ]  Scheduled snapshot period at 10 second(s).
+2023-06-28 09:46:58  [ main:1817 ] - [ INFO ]  HBase metrics system started
+2023-06-28 09:46:58  [ main:1829 ] - [ INFO ]  Loaded MetricRegistries class org.apache.hadoop.hbase.metrics.impl.MetricRegistriesImpl
+2023-06-28 09:46:59  [ LoadIncrementalHFiles-0:3082 ] - [ INFO ]  Trying to load hfile=hdfs://linux01:8020/output/f1/061db4c7b3e448e89c8d01e3bc92fa7f first=Optional[1] last=Optional[5]
+2023-06-28 09:46:59  [ LoadIncrementalHFiles-1:3082 ] - [ INFO ]  Trying to load hfile=hdfs://linux01:8020/output/f2/6373bb4b8e4d4be49ada5ca5e2da8eab first=Optional[1] last=Optional[5]
