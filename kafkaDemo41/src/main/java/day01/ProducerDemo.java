@@ -33,20 +33,16 @@ public class ProducerDemo {
         //创建一个生产者对象  kafka里面，存的收拾key value的数据
         KafkaProducer<String, String> producer = new KafkaProducer<>(props);
 
-        for (int i = 0; i < 1000; i++) {
             //封装需要发送的数据
-            ProducerRecord<String, String> record = new ProducerRecord<String, String>("test01","this message from idea ==>"+i);
+            ProducerRecord<String, String> record = new ProducerRecord<String, String>("doit41",0,1688978380864L,null,"this message from idea ");
             //拿着生产者对象发送数据
             producer.send(record);
             //刷新一下
             producer.flush();
             Thread.sleep(50);
-        }
 
 
         //关闭资源
         producer.close();
-
-
     }
 }
