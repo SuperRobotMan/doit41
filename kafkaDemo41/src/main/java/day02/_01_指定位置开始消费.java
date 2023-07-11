@@ -1,16 +1,19 @@
-package day01;
+package day02;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
+import org.apache.kafka.common.TopicPartition;
 import org.apache.kafka.common.record.TimestampType;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
 import java.time.Duration;
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
-public class KafkaConsumerDemo {
+public class _01_指定位置开始消费 {
     public static void main(String[] args) {
         //创建HashMap
         Map<String, Object> map = new HashMap<>();
@@ -43,8 +46,20 @@ public class KafkaConsumerDemo {
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(map);
 
         //到哪个topic里面拉取数据==》订阅主题
-        consumer.subscribe(Arrays.asList("doit41"));
-//        consumer.seek();
+        consumer.subscribe(Arrays.asList("consumertest"));//默认消费所有分区的数据
+
+        TopicPartition tp = new TopicPartition("consumertest", 2);
+        TopicPartition tp1 = new TopicPartition("consumertest", 1);
+        TopicPartition tp2 = new TopicPartition("doit41", 1);
+        //指定分区，直接分配给该消费者哪几个分区
+        consumer.assign(Arrays.asList(tp,tp1,tp2));
+        /**
+         * TopicPartition:
+         * long:offset
+         */
+        consumer.seek(tp,1);
+        consumer.seek(tp1,2);
+        consumer.seek(tp2,0);
 
         while (true){
             //poll拉取数据
@@ -64,13 +79,7 @@ public class KafkaConsumerDemo {
                 System.out.println("topic:"+topic+",partition:"+partition+",offset:"+offset+",:value:"+value+",timestampType:"+timestampType+",timestamp:"+timestamp);
             }
 
-            //提交偏移量的api   这个偏移量依然是提交到__consumer_offsets
-            //可能会重复读数据         全自动提交   可能会漏读数据，可能会重复读数据
-            consumer.commitAsync();//半自动提交  至少可以控制数据不会漏读，只可能会重复读 业务处理的时候，做一个去重的操作  组id，topic，partition  offset
-            consumer.commitSync();//能不能做到精准一次性读呢？？？可以的
-
         }
-        //关闭资源
 
     }
 }
