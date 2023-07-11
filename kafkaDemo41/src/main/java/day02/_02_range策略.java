@@ -2,6 +2,7 @@ package day02;
 
 import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.TopicPartition;
+import org.apache.kafka.common.internals.Topic;
 import org.apache.kafka.common.record.TimestampType;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
@@ -26,7 +27,7 @@ public class _02_range策略 {
         map.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "linux01:9092");
         //组id
         map.put(ConsumerConfig.GROUP_ID_CONFIG, "java01");
-        map.put(ConsumerConfig.PARTITION_ASSIGNMENT_STRATEGY_CONFIG, "org.apache.kafka.clients.consumer.CooperativeStickyAssignor");
+        map.put(ConsumerConfig.PARTITION_ASSIGNMENT_STRATEGY_CONFIG, RangeAssignor.class.getName());
 
         //创建一个kafka的消费者
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(map);
@@ -48,9 +49,13 @@ public class _02_range策略 {
              */
             @Override
             public void onPartitionsAssigned(Collection<TopicPartition> partitions) {
+                //此时这个消费者消费到的所有的分区 partitions 这个集合里面
                 System.out.println("在分配之后的结果："+partitions);
             }
         });
+
+        //取消订阅
+//        consumer.unsubscribe();
 
 
         while (true) {

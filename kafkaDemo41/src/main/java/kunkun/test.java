@@ -12,6 +12,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class test {
     public static void main(String[] args) throws IOException, SQLException {
@@ -58,13 +60,21 @@ public class test {
         pps.execute();
 */
 
-        ArrayList<String> list = new ArrayList<>();
+/*        ArrayList<String> list = new ArrayList<>();
         list.add("male");
         list.add("female");
 
         for (int i = 0; i < 100; i++) {
             System.out.println(list.get(RandomUtils.nextInt(0, list.size())));
-        }
+        }*/
+
+        Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                System.out.println("翔哥女朋友真漂亮，祝福你们,啥时候带教室瞅瞅啊");
+            }
+        },1000,2000);
 
 
 //        for (int i = 0; i < 100; i++) {
