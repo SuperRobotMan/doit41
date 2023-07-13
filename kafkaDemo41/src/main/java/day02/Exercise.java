@@ -1,6 +1,8 @@
 package day02;
 
 import com.alibaba.fastjson.JSON;
+import com.google.common.hash.BloomFilter;
+import com.google.common.hash.Funnels;
 import kunkun.EventInfo;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.RandomUtils;
@@ -13,6 +15,7 @@ import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.apache.kafka.common.serialization.StringSerializer;
+import org.roaringbitmap.RoaringBitmap;
 import redis.clients.jedis.Jedis;
 
 import java.sql.*;
@@ -45,12 +48,21 @@ public class Exercise {
         KafkaConsumer<String, String> consumer = new KafkaConsumer<>(props);
         KafkaProducer<String, String> producer = new KafkaProducer<>(props);
 
-        HashSet<Integer> set = new HashSet<>();
+//        HashSet<Integer> set = new HashSet<>();
+        //可以用bloomfilter 或者bitmap
+        //bitmap
+//        RoaringBitmap bitmap = RoaringBitmap.bitmapOf();
+
+        //布隆
+        BloomFilter<Long> longBloomFilter = BloomFilter.create(Funnels.longFunnel(), 10000, 0.1);
 
         EventInfo eventInfo = new EventInfo();
 
         //redis  ==》 set  bitmap  hll
         Jedis jedis = new Jedis("linux01", 6379);
+
+        //Roaringbitmap
+
 
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "123456");
         PreparedStatement pps = conn.prepareStatement("insert into abc values (?)");
@@ -92,10 +104,14 @@ public class Exercise {
                         EventInfo eventInfo1 = JSON.parseObject(json, EventInfo.class);
                         int guid = eventInfo1.getGuid();
 
-                        boolean flag = set.contains(guid);
+                        //判断bit数组中是否标注过
+//                        boolean flag = bitmap.contains(guid);
+                        boolean flag = longBloomFilter.mightContain((long)guid);
+
                         if (!flag){
                             eventInfo1.setIsNew(1);
-                            set.add(guid);
+                            //这一步至关重要 ==》
+                            longBloomFilter.put((long)guid);
                         }else {
                             eventInfo1.setIsNew(0);
                         }
