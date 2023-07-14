@@ -25,6 +25,7 @@ public class ProducerDemo {
         //设置kafka集群的地址
 //        props.setProperty("bootstrap.servers","linux01:9092,linux02:9092,linux03:9092");
         props.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"linux01:9092,linux02:9092,linux03:9092");
+//        props.setProperty(ProducerConfig.TRANSACTIONAL_ID_CONFIG)
 
         props.setProperty("partitioner.class", MyPartitioner.class.getName());
         /**

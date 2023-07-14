@@ -11,6 +11,7 @@
     <modules>
         <module>redisDemo41</module>
         <module>kafkaDemo41</module>
+        <module>ScalaDemo41</module>
     </modules>
 
     <properties>
