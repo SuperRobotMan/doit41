@@ -2,42 +2,29 @@ package day01;
 
 public class Test {
     public static void main(String[] args) {
-       /* int a = 10;
-        a = 29;
-        System.out.println(a);
 
-        int b ;//局部变量  不赋予初始值，不能够使用
-        b = 10;
-        System.out.println(b);
+        Func3 func3 = new Func3();
+        String apply = func3.apply(1, 2, 3);
 
-        //常量   用final修饰的变量就是常量   一旦创建，不能够修改他的值
-        final int c = 10;
-//        c = 20;
+        MyFunction3<Integer, Integer, Integer, String> myFunc3 = new MyFunction3<Integer, Integer, Integer, String>() {
+            @Override
+            public String apply(Integer a, Integer b, Integer c) {
+                return a+b+c+"";
+            }
+        };
+        String apply1 = myFunc3.apply(1, 2, 3);
 
-        Integer num = 10;
-        int num1 = 10;*/
-        //参与计算得时候，可以自动类型提升
-/*        int a = 10;
-        double b = 10.0;
-        char c = 'a';
-        double res = a + b + c;
-        System.out.println(res);//117.0*/
-        int [] arr = {1,2,3,4,5};
-        for (int i : arr) {
-            System.out.println(i);
-        }
-
-        for (int i = 0; i < 5; i+=2) {
-            System.out.println(i);
-        }
-
-        //代码块
-        {
-
-
-        }
 
     }
-
-
 }
+
+class Func3 implements MyFunction3<Integer,Integer,Integer,String>{
+
+    @Override
+    public String apply(Integer a, Integer b, Integer c) {
+        return a+b+c+"";
+    }
+}
+
+
+

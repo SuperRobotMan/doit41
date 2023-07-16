@@ -127,6 +127,10 @@ public class Exercise {
             }
         }).start();
 
+
+
+
+
         //定时任务的线程
       /*  new Thread(new Runnable() {
             @Override
@@ -151,6 +155,14 @@ public class Exercise {
         }).start();*/
 
 
+
+    }
+}
+
+class MyRunnable implements Runnable{
+
+    @Override
+    public void run() {
 
     }
 }
